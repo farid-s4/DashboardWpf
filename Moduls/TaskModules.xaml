@@ -1,0 +1,402 @@
+﻿<UserControl x:Class="Dashboard.Moduls.TaskModules"
+             x:Name="index"
+
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Height="800"
+             Width="1000">
+
+    <UserControl.Resources>
+        <Style x:Key="ModernButton" TargetType="Button">
+            <Setter Property="Background" Value="#FF4A90E2"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="15,8"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                CornerRadius="6"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                BorderBrush="{TemplateBinding BorderBrush}">
+                            <ContentPresenter HorizontalAlignment="Center" 
+                                            VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF357ABD"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#FF2E6DA4"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="BackButton" TargetType="Button" BasedOn="{StaticResource ModernButton}">
+            <Setter Property="Background" Value="#FF6C757D"/>
+            <Setter Property="Width" Value="80"/>
+            <Setter Property="Height" Value="35"/>
+        </Style>
+
+        <Style x:Key="FilterButton" TargetType="Button" BasedOn="{StaticResource ModernButton}">
+            <Setter Property="Background" Value="#FF28A745"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="MinWidth" Value="120"/>
+        </Style>
+
+        <Style x:Key="SaveButton" TargetType="Button" BasedOn="{StaticResource ModernButton}">
+            <Setter Property="Background" Value="#FF17A2B8"/>
+            <Setter Property="MinWidth" Value="150"/>
+            <Setter Property="Height" Value="40"/>
+        </Style>
+
+
+        <Style x:Key="ActionButton" TargetType="Button" BasedOn="{StaticResource ModernButton}">
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="MinWidth" Value="100"/>
+        </Style>
+        
+        <Style x:Key="ModernTextBox" TargetType="TextBox">
+            <Setter Property="Padding" Value="10,8"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush" Value="#FFE0E0E0"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="4">
+                            <ScrollViewer x:Name="PART_ContentHost" 
+                                        Margin="{TemplateBinding Padding}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter Property="BorderBrush" Value="#FF4A90E2"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="ModernComboBox" TargetType="ComboBox">
+            <Setter Property="Padding" Value="10,8"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush" Value="#FFE0E0E0"/>
+            <Setter Property="Background" Value="White"/>
+        </Style>
+        
+        <Style x:Key="ModernDatePicker" TargetType="DatePicker">
+            <Setter Property="Padding" Value="10,8"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush" Value="#FFE0E0E0"/>
+            <Setter Property="Background" Value="White"/>
+        </Style>
+
+
+        <Style x:Key="FieldLabel" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="Foreground" Value="#FF495057"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Width" Value="120"/>
+        </Style>
+
+
+        <Style x:Key="HeaderText" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="28"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#FF2C3E50"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0,20,0,30"/>
+        </Style>
+
+
+        <Style x:Key="TaskCard" TargetType="Border">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#FFE9ECEF"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="15"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="Gray" Direction="315" 
+                                    ShadowDepth="2" Opacity="0.3"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid Background="#FFF8F9FA" Margin="0,0,0,-27">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Margin="20,10,20,0">
+            <Button x:Name="BackButton" 
+                    Content="← Назад" 
+                    Style="{StaticResource BackButton}"
+                    Click="BackButton_Click" 
+                    HorizontalAlignment="Left"/>
+
+            <TextBlock Text="Управление задачами" 
+                       Style="{StaticResource HeaderText}"/>
+        </Grid>
+
+        <Border Grid.Row="1" 
+                Background="White" 
+                Margin="20,10" 
+                Padding="25"
+                CornerRadius="10"
+                BorderBrush="#FFE9ECEF" 
+                BorderThickness="1">
+            <Border.Effect>
+                <DropShadowEffect Color="Gray" Direction="315" 
+                                ShadowDepth="3" Opacity="0.2"/>
+            </Border.Effect>
+
+            <StackPanel>
+                <TextBlock Text="Информация о задаче" 
+                           FontSize="18" 
+                           FontWeight="SemiBold" 
+                           Foreground="#FF495057"
+                           Margin="0,0,0,20"/>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,0,0,15">
+                        <TextBlock Text="Название:" Style="{StaticResource FieldLabel}"/>
+                        <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
+                                 Style="{StaticResource ModernTextBox}"
+                                 Width="500"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="0,0,0,15">
+                        <TextBlock Text="Срок:" Style="{StaticResource FieldLabel}"/>
+                        <DatePicker SelectedDate="{Binding Deadline, UpdateSourceTrigger=PropertyChanged}" 
+                                    Style="{StaticResource ModernDatePicker}"
+                                    Width="250"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="0,0,0,15">
+                        <TextBlock Text="Приоритет:" Style="{StaticResource FieldLabel}"/>
+                        <ComboBox SelectedValue="{Binding Priority, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                                  SelectedValuePath="Content"
+                                  Style="{StaticResource ModernComboBox}"
+                                  Width="250">
+                            <ComboBoxItem Content="Low"/>
+                            <ComboBoxItem Content="Medium"/>
+                            <ComboBoxItem Content="High"/>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Row="3" Margin="0,0,0,20">
+                        <TextBlock Text="Выполнено:" Style="{StaticResource FieldLabel}"/>
+                        <CheckBox IsChecked="{Binding IsCompleted, UpdateSourceTrigger=PropertyChanged}"
+                                  VerticalAlignment="Center"
+                                  Margin="10,0"/>
+                    </StackPanel>
+
+                    <Button Grid.Row="4" 
+                            Content="💾 Сохранить задачу" 
+                            Command="{Binding SaveTaskCommand}" 
+                            Style="{StaticResource SaveButton}"
+                            HorizontalAlignment="Center"/>
+                </Grid>
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Row="2" 
+                Background="White" 
+                Margin="20,10" 
+                Padding="20"
+                CornerRadius="10"
+                BorderBrush="#FFE9ECEF" 
+                BorderThickness="1">
+            <Border.Effect>
+                <DropShadowEffect Color="Gray" Direction="315" 
+                                ShadowDepth="3" Opacity="0.2"/>
+            </Border.Effect>
+
+            <StackPanel>
+                <TextBlock Text="Фильтры задач" 
+                           FontSize="16" 
+                           FontWeight="SemiBold" 
+                           Foreground="#FF495057"
+                           Margin="0,0,0,15"/>
+
+                <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center" >
+                    <Button Content="✅ Выполненные" 
+                            Command="{Binding ShowCompletedCommand}" 
+                            Style="{StaticResource FilterButton}" Height="40" Width="138" 
+                            />
+                    <Button Content="⏳ Невыполненные"  
+                            Command="{Binding ShowIncompleteCommand}" 
+                            Style="{StaticResource FilterButton}" Click="Button_Click" Width="156"/>
+                    <Button Content="📋 Все задачи" 
+                            Command="{Binding ShowAllCommand}" 
+                            Style="{StaticResource FilterButton}"/>
+                    <Button Content="Низкий приоритет" 
+                            Command="{Binding FilterByPriorityCommand}" 
+                            CommandParameter="Low" 
+                            Style="{StaticResource FilterButton}" Width="133"/>
+                    <Button Content="Средний приоритет" 
+                            Command="{Binding FilterByPriorityCommand}" 
+                            CommandParameter="Medium"
+                            Style="{StaticResource FilterButton}" Width="141"/>
+                    <Button Content="Высокий приоритет" 
+                            Command="{Binding FilterByPriorityCommand}" 
+                            CommandParameter="High"
+                            Style="{StaticResource FilterButton}" Width="144"/>
+                </WrapPanel>
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Row="3" 
+                Background="White" 
+                Margin="20,10,20,0" 
+                Padding="20,15,20,5"
+                CornerRadius="10,10,0,0"
+                BorderBrush="#FFE9ECEF" 
+                BorderThickness="1,1,1,0">
+            <TextBlock Text="Список задач" 
+                       FontSize="18" 
+                       FontWeight="SemiBold" 
+                       Foreground="#FF495057"/>
+        </Border>
+
+        <ScrollViewer Grid.Row="4" 
+                      Margin="20,0,20,20"
+                      VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Disabled">
+            <Border Background="White" 
+                    Padding="20,10,20,20"
+                    CornerRadius="0,0,10,10"
+                    BorderBrush="#FFE9ECEF" 
+                    BorderThickness="1,0,1,1">
+                <Border.Effect>
+                    <DropShadowEffect Color="Gray" Direction="315" 
+                                    ShadowDepth="3" Opacity="0.2"/>
+                </Border.Effect>
+
+                <ItemsControl ItemsSource="{Binding TasksView}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Style="{StaticResource TaskCard}">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+
+
+                                    <StackPanel Grid.Column="0" Margin="0,0,20,0">
+                                        <TextBlock Text="{Binding Title}" 
+                                                   FontSize="16" 
+                                                   FontWeight="SemiBold"
+                                                   Foreground="#FF2C3E50"
+                                                   Margin="0,0,0,8"/>
+
+                                        <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                                            <TextBlock Text="📅 Срок: " 
+                                                       FontSize="12" 
+                                                       Foreground="#FF6C757D"/>
+                                            <TextBlock Text="{Binding Deadline, StringFormat=dd.MM.yyyy}" 
+                                                       FontSize="12" 
+                                                       FontWeight="Medium"
+                                                       Foreground="#FF495057"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                                            <TextBlock Text="⭐ Приоритет: " 
+                                                       FontSize="12" 
+                                                       Foreground="#FF6C757D"/>
+                                            <TextBlock Text="{Binding Priority}" 
+                                                       FontSize="12" 
+                                                       FontWeight="Medium"
+                                                       Foreground="#FF495057"/>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBlock Text="📊 Статус: " 
+                                                       FontSize="12" 
+                                                       Foreground="#FF6C757D"/>
+                                            <TextBlock FontSize="12" 
+                                                       FontWeight="Medium">
+                                                <TextBlock.Style>
+                                                    <Style TargetType="TextBlock">
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding IsCompleted}" Value="True">
+                                                                <Setter Property="Text" Value="✅ Выполнено"/>
+                                                                <Setter Property="Foreground" Value="#FF28A745"/>
+                                                            </DataTrigger>
+                                                            <DataTrigger Binding="{Binding IsCompleted}" Value="False">
+                                                                <Setter Property="Text" Value="⏳ В процессе"/>
+                                                                <Setter Property="Foreground" Value="#FFFD7E14"/>
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </TextBlock.Style>
+                                            </TextBlock>
+                                        </StackPanel>
+                                    </StackPanel>
+
+                                    <StackPanel Grid.Column="1" 
+                                                Orientation="Vertical" 
+                                                VerticalAlignment="Center">
+                                        <Button Margin="0,0,0,8"
+                                                Command="{Binding DataContext.UpdateTaskCommand, ElementName=index}"
+                                                CommandParameter="{Binding}">
+                                            <Button.Style>
+                                                <Style TargetType="Button" BasedOn="{StaticResource ActionButton}">
+                                                    <Setter Property="Content" Value="✓ Выполнить"/>
+                                                    <Setter Property="Background" Value="#FF28A745"/>
+                                                    <Style.Triggers>
+                                                        <DataTrigger Binding="{Binding IsCompleted}" Value="True">
+                                                            <Setter Property="Content" Value="↺ Отменить" />
+                                                            <Setter Property="Background" Value="#FFFD7E14"/>
+                                                        </DataTrigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </Button.Style>
+                                        </Button>
+
+                                        <Button Content="🗑️ Удалить" 
+                                                Style="{StaticResource ActionButton}"
+                                                Background="#FFDC3545"
+                                                Command="{Binding DataContext.DeleteTaskCommand, ElementName=index}"
+                                                CommandParameter="{Binding}"/>
+                                    </StackPanel>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </Border>
+        </ScrollViewer>
+    </Grid>
+</UserControl>
