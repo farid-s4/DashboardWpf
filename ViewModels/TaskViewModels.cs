@@ -85,10 +85,6 @@ namespace Dashboard.ViewModels
         public ICollectionView TasksView { get; }
 
         public ICommand ShowCompletedCommand { get; }
-/*        public ICommand FilterByLowPriorityCommand { get; }
-        public ICommand FilterByMiddlePriorityCommand { get; }
-        public ICommand FilterByHighPriorityCommand { get; }
-*/
         public ICommand FilterByPriorityCommand { get; }
 
         

@@ -25,7 +25,7 @@ namespace Dashboard.Moduls
         public FinanceRecordModul()
         {
             InitializeComponent();
-            DataContext = new FinanceRecordViewModel();
+            DataContext = new FinanceRecordViewModels();
         }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
@@ -34,11 +34,6 @@ namespace Dashboard.Moduls
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void AmountTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }

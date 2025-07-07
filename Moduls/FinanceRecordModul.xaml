@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Dashboard.Moduls"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:system="clr-namespace:System;assembly=netstandard"
              mc:Ignorable="d" Height="900" Width="1000">
     <UserControl.Resources>
         <Style x:Key="ModernButton" TargetType="Button">
@@ -115,7 +115,6 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <!-- Заголовок -->
         <Grid Grid.Row="0" Margin="20,10,20,0">
             <Button x:Name="BackButton" 
                     Content="← Назад" 
@@ -127,14 +126,13 @@
                        Style="{StaticResource HeaderText}"/>
         </Grid>
 
-        <!-- Основное содержимое -->
+
         <Grid Grid.Row="1" Margin="20">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="320"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <!-- Панель добавления записи -->
             <Border Grid.Column="0" Background="White" CornerRadius="5" Padding="15" Margin="0,0,10,0">
                 <ScrollViewer VerticalScrollBarVisibility="Auto">
                     <StackPanel>
@@ -147,9 +145,13 @@
                         <TextBlock Text="Тип операции:" Margin="0,5,0,5"/>
                         <ComboBox x:Name="TypeComboBox" 
                                   Margin="0,0,0,10" 
-                                  SelectedItem="{Binding SelectedType, Mode=TwoWay}"
-                                  ItemsSource="{Binding OperationTypes}"
-                                  Style="{StaticResource ModernComboBox}"/>
+                                  SelectedItem="{Binding Type, Mode=TwoWay}"
+                                  Style="{StaticResource ModernComboBox}" >
+                            <ComboBox.Items>
+                                <system:String>Доход</system:String>
+                                <system:String>Расход</system:String>
+                            </ComboBox.Items>
+                        </ComboBox>
 
                         <TextBlock Text="Категория:" Margin="0,5,0,5" />
                         <TextBox x:Name="CategoryTextBox" 
@@ -163,7 +165,7 @@
                                  Margin="0,0,0,10" 
                                  Text="{Binding Amount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"  
                                  Style="{StaticResource ModernTextBox}"
-                                 TabIndex="2" TextChanged="AmountTextBox_TextChanged" />
+                                 TabIndex="2" />
 
                         <TextBlock Text="Дата:" Margin="0,5,0,5"/>
                         <DatePicker x:Name="DatePicker" 
@@ -184,22 +186,22 @@
                         <Button Content="Добавить" 
                                 Height="40" 
                                 Margin="0,0,0,10"
-                                Command="{Binding AddRecordCommand}"
+                                Command="{Binding SaveFinanceRecordCommand}"
                                 Style="{StaticResource SaveButton}"/>
-
                         <Button Content="Удалить выбранную" 
                                 Height="40" 
                                 Command="{Binding DeleteRecordCommand}"
-                                Style="{StaticResource DeleteButton}"/>
+                                Style="{StaticResource DeleteButton}"
+                                CommandParameter="{Binding SelectedRecord}"/>
                     </StackPanel>
                 </ScrollViewer>
             </Border>
 
-            <!-- Панель списка записей -->
             <Border Grid.Column="1" Background="White" CornerRadius="5" Padding="10" Margin="10,0,0,0">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="0"/>
+                        <RowDefinition Height="33.94"/>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
@@ -209,9 +211,9 @@
                                FontSize="18" 
                                FontWeight="Bold" 
                                Margin="0,0,0,10" 
-                               HorizontalAlignment="Center"/>
+                               HorizontalAlignment="Center" Grid.RowSpan="2"/>
 
-                    <DataGrid Grid.Row="1" 
+                    <DataGrid Grid.Row="2" 
                               x:Name="RecordsDataGrid" 
                               AutoGenerateColumns="False" 
                               CanUserAddRows="False"
@@ -220,7 +222,7 @@
                               GridLinesVisibility="All"
                               HeadersVisibility="Column"
                               ItemsSource="{Binding FinanceRecords}"
-                              SelectedItem="{Binding SelectedRecord, Mode=TwoWay}">
+                              SelectedItem="{Binding SelectedRecord, Mode=TwoWay}" Grid.RowSpan="2">
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="Тип" Binding="{Binding Type}" Width="80" IsReadOnly="True"/>
                             <DataGridTextColumn Header="Категория" Binding="{Binding Category}" Width="120" IsReadOnly="True"/>
@@ -229,24 +231,8 @@
                             <DataGridTextColumn Header="Примечание" Binding="{Binding Note}" Width="*" IsReadOnly="True"/>
                         </DataGrid.Columns>
                     </DataGrid>
-
-                    <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,10,0,0">
-                        <TextBlock Text="Доходы: " FontWeight="Bold"/>
-                        <TextBlock Text="{Binding TotalIncome, StringFormat='{}{0:C}'}" Foreground="Green" FontWeight="Bold"/>
-                        <TextBlock Text="   Расходы: " FontWeight="Bold" Margin="20,0,0,0"/>
-                        <TextBlock Text="{Binding TotalExpense, StringFormat='{}{0:C}'}" Foreground="Red" FontWeight="Bold"/>
-                        <TextBlock Text="   Баланс: " FontWeight="Bold" Margin="20,0,0,0"/>
-                        <TextBlock Text="{Binding Balance, StringFormat='{}{0:C}'}" FontWeight="Bold" Foreground="{Binding BalanceColor}"/>
-                    </StackPanel>
                 </Grid>
             </Border>
         </Grid>
-
-        <!-- Статус бар -->
-        <StatusBar Grid.Row="2" Height="25">
-            <StatusBarItem>
-                <TextBlock Text="{Binding StatusMessage}"/>
-            </StatusBarItem>
-        </StatusBar>
     </Grid>
 </UserControl>
