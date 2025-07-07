@@ -44,7 +44,10 @@ namespace Dashboard
 
         private void FinanceButton_Click(object sender, RoutedEventArgs e)
         {
-            MainContent.Content = new TaskModules();
+            var financeModul = new FinanceRecordModul();
+            financeModul.ReturnRequested += new Action(HandleReturn);
+            MainContent.Content = financeModul;
+            NavigationPanel.Visibility = Visibility.Collapsed;
         }
     }
 }

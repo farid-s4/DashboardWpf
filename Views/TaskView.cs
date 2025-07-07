@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dashboard.Views
 {
-    internal class TaskView
+    public class TaskView
     {
     }
 }

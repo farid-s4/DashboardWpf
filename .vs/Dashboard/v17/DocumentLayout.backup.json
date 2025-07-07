@@ -1,56 +1,83 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\e1yzz\\Documents\\Dashboard\\",
+  "WorkspaceRootPath": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\e1yzz\\documents\\dashboard\\moduls\\taskmodules.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:moduls\\taskmodules.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\moduls\\financerecordmodul.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:moduls\\financerecordmodul.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\e1yzz\\documents\\dashboard\\models\\tasksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:models\\tasksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\viewmodels\\financerecordviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:viewmodels\\financerecordviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\e1yzz\\documents\\dashboard\\viewmodels\\taskviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\models\\financerecordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:models\\financerecordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\viewmodels\\taskviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:viewmodels\\taskviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\e1yzz\\documents\\dashboard\\moduls\\taskmodules.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\moduls\\financerecordmodul.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:moduls\\financerecordmodul.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\services\\financemodulservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:services\\financemodulservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\services\\taskmodulservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:services\\taskmodulservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\moduls\\taskmodules.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:moduls\\taskmodules.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\moduls\\taskmodules.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:moduls\\taskmodules.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\e1yzz\\documents\\dashboard\\views\\taskview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\views\\financeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:views\\financeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\views\\taskview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:views\\taskview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\models\\tasksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:models\\tasksmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\e1yzz\\AppData\\Local\\Temp\\.vsdbgsrc\\e838e50353acd66f964b3aa62f2ead8b89cb9228844b858a3e0b8d14655eca6e\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\e1yzz\\documents\\dashboard\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\e1yzz\\documents\\dashboard\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\e1yzz\\documents\\dashboard\\dashboard.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\dashboard.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:dashboard.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\e1yzz\\documents\\dashboard\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\e1yzz\\documents\\dashboard\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\sadir_fe29\\source\\repos\\farid-s4\\dashboardwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|c:\\users\\e1yzz\\documents\\dashboard\\services\\taskmodulservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04E80489-5715-40CF-A6E8-8444027B01AA}|Dashboard.csproj|solutionrelative:services\\taskmodulservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\e1yzz\\Documents\\Dashboard\\obj\\Debug\\net9.0-windows\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\obj\\Debug\\net9.0-windows\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net9.0-windows\\MainWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -61,28 +88,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 150,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskViewModels.cs",
-              "DocumentMoniker": "C:\\Users\\e1yzz\\Documents\\Dashboard\\ViewModels\\TaskViewModels.cs",
-              "RelativeDocumentMoniker": "ViewModels\\TaskViewModels.cs",
-              "ToolTip": "C:\\Users\\e1yzz\\Documents\\Dashboard\\ViewModels\\TaskViewModels.cs",
-              "RelativeToolTip": "ViewModels\\TaskViewModels.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAcwFsAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T20:10:34.851Z",
+              "DocumentIndex": 4,
+              "Title": "FinanceRecordModul.xaml",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Moduls\\FinanceRecordModul.xaml",
+              "RelativeDocumentMoniker": "Moduls\\FinanceRecordModul.xaml",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Moduls\\FinanceRecordModul.xaml",
+              "RelativeToolTip": "Moduls\\FinanceRecordModul.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-07T05:46:39.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "TaskModules.xaml",
-              "DocumentMoniker": "C:\\Users\\e1yzz\\Documents\\Dashboard\\Moduls\\TaskModules.xaml",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Moduls\\TaskModules.xaml",
               "RelativeDocumentMoniker": "Moduls\\TaskModules.xaml",
-              "ToolTip": "C:\\Users\\e1yzz\\Documents\\Dashboard\\Moduls\\TaskModules.xaml",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Moduls\\TaskModules.xaml",
               "RelativeToolTip": "Moduls\\TaskModules.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-29T19:52:52.697Z",
@@ -91,62 +117,114 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TasksModel.cs",
-              "DocumentMoniker": "C:\\Users\\e1yzz\\Documents\\Dashboard\\Models\\TasksModel.cs",
-              "RelativeDocumentMoniker": "Models\\TasksModel.cs",
-              "ToolTip": "C:\\Users\\e1yzz\\Documents\\Dashboard\\Models\\TasksModel.cs",
-              "RelativeToolTip": "Models\\TasksModel.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAkwCAAAAANAAAAAAAAAA==",
+              "Title": "FinanceRecordViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\ViewModels\\FinanceRecordViewModels.cs",
+              "RelativeDocumentMoniker": "ViewModels\\FinanceRecordViewModels.cs",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\ViewModels\\FinanceRecordViewModels.cs*",
+              "RelativeToolTip": "ViewModels\\FinanceRecordViewModels.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T19:00:34.78Z",
+              "WhenOpened": "2025-07-07T05:43:48.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
+              "Title": "FinanceModulServices.cs",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Services\\FinanceModulServices.cs",
+              "RelativeDocumentMoniker": "Services\\FinanceModulServices.cs",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Services\\FinanceModulServices.cs",
+              "RelativeToolTip": "Services\\FinanceModulServices.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T06:54:21.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TaskModulServices.cs",
-              "DocumentMoniker": "C:\\Users\\e1yzz\\Documents\\Dashboard\\Services\\TaskModulServices.cs",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Services\\TaskModulServices.cs",
               "RelativeDocumentMoniker": "Services\\TaskModulServices.cs",
-              "ToolTip": "C:\\Users\\e1yzz\\Documents\\Dashboard\\Services\\TaskModulServices.cs",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Services\\TaskModulServices.cs",
               "RelativeToolTip": "Services\\TaskModulServices.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwB4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T16:12:47.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\e1yzz\\Documents\\Dashboard\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\e1yzz\\Documents\\Dashboard\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAkwC4AAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FinanceRecordModul.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Moduls\\FinanceRecordModul.xaml.cs",
+              "RelativeDocumentMoniker": "Moduls\\FinanceRecordModul.xaml.cs",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Moduls\\FinanceRecordModul.xaml.cs*",
+              "RelativeToolTip": "Moduls\\FinanceRecordModul.xaml.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAEwBsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T18:59:00.147Z",
+              "WhenOpened": "2025-07-07T05:47:47.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\ViewModels\\TaskViewModels.cs",
+              "RelativeDocumentMoniker": "ViewModels\\TaskViewModels.cs",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\ViewModels\\TaskViewModels.cs",
+              "RelativeToolTip": "ViewModels\\TaskViewModels.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAwLEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T20:10:34.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FinanceRecordModel.cs",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Models\\FinanceRecordModel.cs",
+              "RelativeDocumentMoniker": "Models\\FinanceRecordModel.cs",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Models\\FinanceRecordModel.cs",
+              "RelativeToolTip": "Models\\FinanceRecordModel.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwEEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T05:45:50.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskModules.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Moduls\\TaskModules.xaml.cs",
+              "RelativeDocumentMoniker": "Moduls\\TaskModules.xaml.cs",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Moduls\\TaskModules.xaml.cs",
+              "RelativeToolTip": "Moduls\\TaskModules.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T19:54:42.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FinanceView.cs",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Views\\FinanceView.cs",
+              "RelativeDocumentMoniker": "Views\\FinanceView.cs",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Views\\FinanceView.cs",
+              "RelativeToolTip": "Views\\FinanceView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T05:44:16.679Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\e1yzz\\Documents\\Dashboard\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\e1yzz\\Documents\\Dashboard\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T19:58:09.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "TaskView.cs",
-              "DocumentMoniker": "C:\\Users\\e1yzz\\Documents\\Dashboard\\Views\\TaskView.cs",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Views\\TaskView.cs",
               "RelativeDocumentMoniker": "Views\\TaskView.cs",
-              "ToolTip": "C:\\Users\\e1yzz\\Documents\\Dashboard\\Views\\TaskView.cs",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Views\\TaskView.cs",
               "RelativeToolTip": "Views\\TaskView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -155,11 +233,74 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAawDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T18:59:00.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-29T18:59:01.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TasksModel.cs",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Models\\TasksModel.cs",
+              "RelativeDocumentMoniker": "Models\\TasksModel.cs",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Models\\TasksModel.cs",
+              "RelativeToolTip": "Models\\TasksModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T19:00:34.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Microsoft.WinFX.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk.WindowsDesktop\\targets\\Microsoft.WinFX.targets",
+              "ViewState": "AgIAAK8CAAAAAAAAAAAUwMICAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-07-07T06:10:46.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T19:58:09.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\e1yzz\\Documents\\Dashboard\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\e1yzz\\Documents\\Dashboard\\App.xaml",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-29T19:55:20.013Z",
@@ -167,11 +308,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "Dashboard.csproj",
-              "DocumentMoniker": "C:\\Users\\e1yzz\\Documents\\Dashboard\\Dashboard.csproj",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Dashboard.csproj",
               "RelativeDocumentMoniker": "Dashboard.csproj",
-              "ToolTip": "C:\\Users\\e1yzz\\Documents\\Dashboard\\Dashboard.csproj",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\Dashboard.csproj",
               "RelativeToolTip": "Dashboard.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -180,37 +321,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskModules.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\e1yzz\\Documents\\Dashboard\\Moduls\\TaskModules.xaml.cs",
-              "RelativeDocumentMoniker": "Moduls\\TaskModules.xaml.cs",
-              "ToolTip": "C:\\Users\\e1yzz\\Documents\\Dashboard\\Moduls\\TaskModules.xaml.cs",
-              "RelativeToolTip": "Moduls\\TaskModules.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T19:54:42.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\e1yzz\\Documents\\Dashboard\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\e1yzz\\Documents\\Dashboard\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-29T18:59:01.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "XamlReader.cs",
               "DocumentMoniker": "C:\\Users\\e1yzz\\AppData\\Local\\Temp\\.vsdbgsrc\\e838e50353acd66f964b3aa62f2ead8b89cb9228844b858a3e0b8d14655eca6e\\XamlReader.cs",
-              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e838e50353acd66f964b3aa62f2ead8b89cb9228844b858a3e0b8d14655eca6e\\XamlReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\e1yzz\\AppData\\Local\\Temp\\.vsdbgsrc\\e838e50353acd66f964b3aa62f2ead8b89cb9228844b858a3e0b8d14655eca6e\\XamlReader.cs",
               "ToolTip": "C:\\Users\\e1yzz\\AppData\\Local\\Temp\\.vsdbgsrc\\e838e50353acd66f964b3aa62f2ead8b89cb9228844b858a3e0b8d14655eca6e\\XamlReader.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e838e50353acd66f964b3aa62f2ead8b89cb9228844b858a3e0b8d14655eca6e\\XamlReader.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\e1yzz\\AppData\\Local\\Temp\\.vsdbgsrc\\e838e50353acd66f964b3aa62f2ead8b89cb9228844b858a3e0b8d14655eca6e\\XamlReader.cs [Read Only]",
               "ViewState": "AgIAAJABAAAAAAAAAAAYwKUBAAAAAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T19:27:56.334Z",
@@ -218,16 +334,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "MainWindow.g.cs",
-              "DocumentMoniker": "C:\\Users\\e1yzz\\Documents\\Dashboard\\obj\\Debug\\net9.0-windows\\MainWindow.g.cs",
+              "DocumentMoniker": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\obj\\Debug\\net9.0-windows\\MainWindow.g.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\net9.0-windows\\MainWindow.g.cs",
-              "ToolTip": "C:\\Users\\e1yzz\\Documents\\Dashboard\\obj\\Debug\\net9.0-windows\\MainWindow.g.cs",
+              "ToolTip": "C:\\Users\\sadir_fe29\\source\\repos\\farid-s4\\DashboardWpf\\obj\\Debug\\net9.0-windows\\MainWindow.g.cs",
               "RelativeToolTip": "obj\\Debug\\net9.0-windows\\MainWindow.g.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAtwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T19:57:33.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T19:57:33.62Z"
             }
           ]
         }

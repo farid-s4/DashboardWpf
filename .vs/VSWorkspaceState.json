@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Models",
+    "\\Moduls",
+    "\\Services",
+    "\\ViewModels",
+    "\\Views"
   ],
+  "SelectedNode": "\\ViewModels\\TaskViewModels.cs",
   "PreviewInSolutionExplorer": false
 }
